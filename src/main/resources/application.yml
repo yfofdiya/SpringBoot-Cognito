@@ -1,0 +1,24 @@
+server:
+  port: 9999
+
+aws:
+  cognito:
+    access-key: 
+    secret-access-key: 
+    default-region: 
+    client-id: 
+    user-pool-id: 
+    connection-timeout: 
+    read-timeout: 
+    jwk: 
+
+logging:
+  level:
+    org:
+      springframework: INFO
+    com:
+      simform: INFO
+  pattern:
+    console: "%d{dd-MM-yyyy HH:mm:ss} - %msg%n"
+
+
